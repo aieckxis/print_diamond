@@ -8,6 +8,7 @@ def print_diamond():
         print(" " * ((n - diamond) // 2) + "*" * diamond)
 
     # Print the middle row with all asterisks
+    print("*" * n)
 
     # Print the bottom half of the diamond
     for diamond in range(n - 2, 0, -2):
