@@ -1,5 +1,5 @@
 # Define a function to print a diamond pattern with asterisks
-def print_diamond:
+def print_diamond():
     if n % 2 == 0:
         return "Please provide an odd integer."
 
