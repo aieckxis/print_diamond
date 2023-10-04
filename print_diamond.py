@@ -15,6 +15,9 @@ def print_diamond():
     for diamond in range(n - 2, 0, -2):
         print(" " * ((n - diamond) // 2) + "*" * diamond)
 
-# Test the function with n = 5
-n = 5
-print_diamond()
+# Get user input for n
+try:
+    n = int(input("Enter an odd integer: "))
+    print_diamond()
+except ValueError:
+    print("Please provide a valid integer.")
