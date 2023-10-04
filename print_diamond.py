@@ -1,7 +1,8 @@
 # Define a function to print a diamond pattern with asterisks
 def print_diamond():
     if n % 2 == 0:
-        return "Please provide an odd integer."
+        print("Please provide an odd integer.")
+        return
 
     # Print the top half of the diamond
     for diamond in range(1, n, 2):
